@@ -3,12 +3,15 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane prefHeight="499.0" prefWidth="629.0">
          <children>
             <Label layoutX="250.0" layoutY="46.0" text="BIENVENIDO AL BANCO" />
+            <Button layoutX="80.0" layoutY="90.0" mnemonicParsing="false" onAction="#depositar" text="DEPOSITAR" />
+            <Button layoutX="284.0" layoutY="90.0" mnemonicParsing="false" onAction="#retirar" text="RETIRAR" />
+            <Button layoutX="424.0" layoutY="90.0" mnemonicParsing="false" onAction="#consultar" text="CONSULTAR SALDO" />
+            <Label fx:id="lblres" layoutX="300.0" layoutY="159.0" text="texto" />
          </children>
       </Pane>
    </children>
